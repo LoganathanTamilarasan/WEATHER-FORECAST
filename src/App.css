@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://static.vecteezy.com/system/resources/previews/007/561/051/non_2x/weather-raining-on-city-building-background-free-vector.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main App Container */
+.app {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  opacity: 0.95;
+}
+
+/* Header */
+h1 {
+  color: #0077cc;
+}
+
+/* City Name */
+.city-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Current Weather Styles */
+.current-weather {
+  margin-bottom: 20px;
+}
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Weather Item Styles */
+.weather-item {
+  flex: 1 1 calc(20% - 15px);
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+
+.weather-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-color: #0077cc;
+}
+
+/* Image Styles */
+.weather-item img {
+  width: 30px;
+  height: 30px;
+  margin: 5px 0;
+}
+
+/* Title and Data Styles */
+.weather-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.weather-data {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Forecast Container */
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  flex: 1 1 calc(14% - 15px);
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background: #f1f1f1;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+
+.forecast-day:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-color: #0077cc;
+}
+
+.forecast-day img {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.forecast-temp {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0077cc;
+}
+
+.forecast-date {
+  font-size: 12px;
+  color: #333;
+  margin-top: 5px;
+}
